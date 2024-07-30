@@ -1,0 +1,29 @@
+	Acting as an expert Javascript programmer, code an HTML5 canvas game entitled Invaders. 
+
+	Make the canvas 500 pixels wide by 600 pixels in height.
+
+	Code the game logic in a separate javascript file called 'game.js'
+
+	The game consists of a maximum of 20 invaders and 1 defender.  The invaders enter at the top left of the screen and move right and left. Start with 1 invader and add a new one  every 1 seconds. Keep track of the total numbrer of invaders created so that the total number should be 20.
+
+	When an invader gets to the right edge of the canvas, it should move down 100 pixels, left 5 pixels and begin moving left. 
+
+	When an invader gets to the left edge of the canvas, it should move down 100 pixels, right 5 pixels and begin moving right. Each invader should be allowed 10 bombs per game.
+
+	When an invader gets to the bottom row, it's game over.
+
+	Have each invader drop a bomb at random intervels but only allow a maximum of 2 bombs on the screen per invader at any given time. When a bomb hits the defender, it's game over. 
+
+	When the game is over or the player wins, display the appropriate message in 40 pt text in the middle of the  canvas.
+
+	The defender is at the bottom of the screen. It moves 10 pixels right when the player presses the right arrow key. It moves 10 pixels left as the player depresses the left arrow key. When the player press the space bar, it launches a missile up. If the missile hits an invader, the invader blows up. The player wins when 20 invaders have been destroyed.
+
+	The invaders, bombs, defender, and missiles all have PNG image files in the same folder as game.js.
+
+	Start at a rate of 15 frames per second.
+
+	Limite the number of missiles on the screen at any given time to 2
+
+	Limite the number of bombs on the screen at any given to 2 per invader.
+
+	Provide a score using white text in the upper left hand corner of the screen.
