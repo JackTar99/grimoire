@@ -1,5 +1,5 @@
 This folder contains the results of an experiment in which I used
-Chatgpt to write a rudimentary Space Invaders game. 
+Grimoire to write a rudimentary Space Invaders game. 
 
 The file prompt.txt contains the initial prompt that I gave
 chatgpt.
